@@ -1,70 +1,74 @@
-# Digital Pulse: Visualizing & Forecasting a Hyper-Connected World (2020–2030)
-
-A big data science project by **Faith Kabanda**  
-**MSc in Big Data Science – NUST University**
-SIDS 5204 Big Data Science Project 
+# Short-Term Internet Penetration Trends in Zimbabwe (2020–2025): A Big Data Analysis of Usage Patterns and Their Role in Shaping the Economy Through Retail, Agriculture, and Healthcare Sectors
+*A Big Data Science Project by Faith Kabanda*  
+**MSc in Big Data Science – NUST University | SIDS 5204 Big Data Science Project**
 
 ---
 
-## Project Description
+## 📊 Project Description
 
-This project explores how internet use and social media trends have shifted in Zimbabwe from 2020 to 2025 — and forecasts what’s next. Using big data tools and Python, it analyzes how these digital trends impact everyday life, especially in key sectors like SMEs, healthcare, and agriculture.
+**Digital Pulse** investigates how internet and social media usage trends evolved in Zimbabwe between **2020 and 2025**, and leverages predictive modeling to forecast digital growth up to **2030**. Using big data tools in Python, the project analyzes the impact of digital adoption on everyday life — especially in critical sectors like **SMEs**, **healthcare**, and **agriculture**.
 
-Data was sourced from **DataReportal**, **GSMA Intelligence**, and others, then cleaned, visualized, and modeled to uncover real insights.  
-The analysis also highlights key challenges like **high data costs**, **poor infrastructure**, and **digital literacy gaps** — all crucial in shaping the country's digital future.
-
----
-Why It Matters
-As Zimbabwe becomes more connected, understanding digital trends helps shape smarter policy, business decisions, and innovation. This project bridges data science and real-world impact.
+The analysis incorporates data from reputable sources such as **DataReportal**, **GSMA Intelligence**, and other publicly available datasets. These datasets were cleaned, visualized, and modeled to draw actionable insights. Core issues such as **high data costs**, **infrastructure limitations**, and **digital literacy gaps** are highlighted as pivotal to shaping Zimbabwe’s digital trajectory.
 
 ---
 
-## What’s Inside?
+## 💡 Why It Matters
 
-### 1. **Demographics Dashboard**
-Visual snapshots of gender and rural/urban trends.
-
-### 2. **Internet & Social Media Analysis**
-Track adoption rates, usage spikes, and access trends.
-
-### 3. **Forecasting (2026–2030)**
-Python-powered predictions using regression modeling.
+As Zimbabwe continues to digitize, understanding the pace and patterns of connectivity can guide smarter **policy decisions**, **business strategies**, and **technological innovations**. This project connects **data science methodologies** with **real-world societal impact**, aiming to provide a data-driven lens on the nation’s digital evolution.
 
 ---
 
-## Visual Highlights
+## 📦 Project Components
 
-- Gender ratio & urbanization shift (2020–2025)  
-- Internet penetration & growth trends  
-- Social media usage patterns  
-- Forecasts for internet users (2026–2030)
+### 1. Demographics Dashboard
+- Visual summaries of population data segmented by **gender**, **urban/rural location**, and **digital access levels**.
 
----
+### 2. Internet & Social Media Analysis
+- Detailed visualizations showing:
+  - Adoption trends
+  - Usage spikes
+  - Rural vs. urban connectivity differences
 
-## Files in the Repository
-
-- `demographics_visuals.py`
-- `internet_usage_visuals.py`
-- `social_media_trends.py`
-- `internet_forecast_model.py`
-
-Each script generates and saves visuals for use in reports and presentations.
+### 3. Forecasting (2026–2030)
+- Internet user projections using **linear regression** and **machine learning models** via **scikit-learn**.
 
 ---
 
-## Technologies Used
+## 📌 Visual Highlights
+
+- 📈 Internet penetration growth (2020–2025)  
+- 👩🏽‍🤝‍👨🏻 Gender and urbanization distribution  
+- 🌐 Social media usage patterns and growth rates  
+- 🔮 Forecast models predicting internet access trends for 2026–2030  
+
+---
+
+## 🧪 Technologies Used
 
 - Python 3
+- Jupyter Notebook
 - Matplotlib
 - NumPy
 - scikit-learn
 
 ---
 
-## Run the Project Locally
+Each script generates high-quality charts for use in reports and presentations.
+
+---
+
+## 🚀 Run the Project Locally
 
 ```bash
+# Clone the repository
 git clone https://github.com/yourusername/digital-pulse-analytics.git
 cd digital-pulse-analytics
+
+# Install required dependencies
 pip install matplotlib numpy scikit-learn
+
+# Run individual scripts
 python demographics_visuals.py
+python internet_usage_visuals.py
+python social_media_trends.py
+python internet_forecast_model.py
